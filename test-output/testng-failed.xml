@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="pages.actions.CarsListPageActions"/>
+      <class name="runner.RunCuke"/>
+      <class name="pages.locators.UsedCarsPageLocators"/>
+      <class name="pages.actions.TradeMeHomePageActions"/>
+      <class name="pages.actions.CarBrowsePageActions"/>
+      <class name="steps.AfterActions"/>
+      <class name="pages.locators.CarBrowsePageLocators"/>
+      <class name="steps.BeforeActions"/>
+      <class name="utils.SeleniumDriver"/>
+      <class name="pages.locators.TradeMeHomePageLocators"/>
+      <class name="pages.locators.CarsListPageLocators"/>
+      <class name="pages.actions.UsedCarsPageActions"/>
+      <class name="steps.TestCase1_Steps"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
